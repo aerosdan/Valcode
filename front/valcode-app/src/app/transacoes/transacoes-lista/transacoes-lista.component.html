@@ -1,0 +1,51 @@
+<h1 class="mt-4">MEUS PAGAMENTOS</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+              <!--   <label>Insira o seu CPF: </label>
+                <input type="text" class="form-control"
+                    [(ngModel)]="pagamentos_doc_cli" name="pagamentos_doc_cli"/> -->
+            </div>
+        </div>
+    </div>
+  <!--   <div class="row">
+        <div class="col-md-2">
+            <button class="btn btn-warning" (click) = "filtrar()">
+                <i class= "fa fa-plus"></i>Consultar
+            </button>
+        </div>
+    </div> -->
+    <div class="row">
+        <div class="class">
+            <table class="table table-condensed table-hover">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>ID da Transação</th>
+                        <th>Tipo de Cliente</th>
+                        <th>ID da Fonte</th>
+                        <th>Data de Pagamento</th>
+                        <th>Data de vencimento</th>
+                        <th>Valor do Pagamento</th>
+                        <th>Modalidade</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let transacao of transacoes">
+                        <td></td>
+                        <td>{{ transacao.id }}</td>
+                        <td>{{ transacao.tip_cli }}</td>
+                        <td>{{ transacao.id_ftn }}</td>
+                        <td>{{ transacao.dat_pgt }}</td>
+                        <td>{{ transacao.dat_vct }}</td>
+                        <td>{{ transacao.vlr_pgt }}</td>
+                        <td>{{ transacao.cod_mdl }}</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

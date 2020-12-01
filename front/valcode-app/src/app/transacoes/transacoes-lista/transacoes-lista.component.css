@@ -1,0 +1,26 @@
+.mt-4 {
+  
+    text-align: center;
+   
+}
+div.form-group {
+
+    text-align: left;
+   
+ 
+
+}
+.btn {
+
+background-color: black;
+margin-bottom: 40px;
+color: white;
+
+}
+.table {
+    background-color: aliceblue;
+}
+.class {
+    margin-left: 75px;
+    align-self: center;
+}

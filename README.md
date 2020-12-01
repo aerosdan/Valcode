@@ -14,6 +14,10 @@
 - **EDUCAÇÃO FINANCEIRA:** É CAPAZ DE AJUDAR O USUÁRIO A SUPERAR-SE E MELHORAR DE VIDA;
 - **DESBANCARIZADOS:** TRAZ A REALIDADE DO COMÉRCIO JÁ EXISTENTE  PARA DENTRO DA PLATAFORMA;
 
+#### DOCUMENTAÇÃO APIS (Postman)
+
+https://documenter.getpostman.com/view/7600274/TVev55W1
+  
 #### I - FRONT-END
 #### 1) Tela de Entrada - dashboard:
 ![TELA ENTRADA](https://github.com/aerosdan/Valcode/blob/sprint02-nov-08/Imagens/TELA-00-ENTRADA-DASH.jpg?raw=true "Title")

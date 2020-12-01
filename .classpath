@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="201017-SPRINT-01-/poc/demo/.mvn/wrapper"/>
+	<classpathentry kind="src" path="201017-SPRINT-01-/poc/demo/src/main/java"/>
+	<classpathentry kind="src" path="201017-SPRINT-01-/poc/demo/src/test/java"/>
+	<classpathentry kind="src" path="201017-SPRINT-01-/poc/Valcode_SPC/src/main/java"/>
+	<classpathentry kind="src" path="Valcode/.mvn/wrapper"/>
+	<classpathentry kind="src" path="Valcode/src/main/java"/>
+	<classpathentry kind="src" path="Valcode/src/test/java"/>
+	<classpathentry kind="output" path="Valcode/target/classes"/>
+</classpath>

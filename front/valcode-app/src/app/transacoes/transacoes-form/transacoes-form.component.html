@@ -1,0 +1,94 @@
+<h1 class="mt-4">Transacoes</h1>
+<ol class="breadcrumb mb-4">
+     <li class="breadcrumb-item active">Cadastro</li>
+</ol>
+<div class="container">    
+    <form #transacoesForm="ngForm" (ngSubmit)="onSubmit()" >        
+        <div class="row">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label>id</label>
+                        <input type="text" class="form-control" name="pagamentos_id"
+                            [ngModel]="transacoes.pagamentos_id" disabled="true"/>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label>doc_cli</label>
+                        <input type="text" class="form-control" 
+                            [(ngModel)]="transacoes.pagamentos_doc_cli" name="pagamentos_doc_cli"/>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="row">  
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label>id_ftn</label>
+                        <input type="text" class="form-control"
+                           [(ngModel)]="transacoes.pagamentos_id_ftn" name="pagamentos_id_ftn"/>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label>num_unc</label>
+                        <input type="text" class="form-control"
+                           [(ngModel)]="transacoes.pagamentos_num_unc" name="pagamentos_num_unc"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">   
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label>dat_pgt</label>
+                        <input type="text" class="form-control"
+                           [(ngModel)]="transacoes.pagamentos_dat_pgt" name="pagamentos_dat_pgt"/>
+                    </div>
+                </div>
+            </div>        
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label>dat_vct</label>
+                        <input type="text" class="form-control"
+                           [(ngModel)]="transacoes.pagamentos_dat_vct" name="pagamentos_dat_vct"/>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="row">      
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label>vlr_pgt</label>
+                        <input type="text" class="form-control"
+                           [(ngModel)]="transacoes.pagamentos_vlr_pgt" name="pagamentos_vlr_pgt"/>
+                    </div>
+                </div>  
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label>cod_mdl</label>
+                        <input type="text" class="form-control"
+                           [(ngModel)]="transacoes.pagamentos_cod_mdl" name="pagamentos_cod_mdl"/>
+                    </div>
+                </div>  
+            </div>
+        </div>
+        <div>
+            <button type="submit" class="btn btn-success">
+                <i class="fa fa-save"></i> salvar
+            </button>
+        </div>
+    </form>
+</div>
+

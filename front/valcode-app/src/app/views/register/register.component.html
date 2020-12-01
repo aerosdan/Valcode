@@ -1,0 +1,90 @@
+<div class="row justify-content-center">
+    <div class="col-lg-7">
+        <div class="border-0 rounded-lg mt-5">
+            <br>
+            <h3 class="text-center font-weight-light my-4"><b>MEUS DADOS</b></h3>
+            <div class="form-row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label class="small mb-1" for="inputFirstName">Atualizar
+                            Primeiro Nome</label> <input class="form-control py-4"
+                            id="inputFirstName" type="text"
+                            placeholder="Digite seu primeiro nome" required />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label class="small mb-1" for="inputLastName">Atualizar
+                            Último Nome</label> <input class="form-control py-4" id="inputLastName"
+                            type="text" placeholder="Digite seu último nome" required />
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="small mb-1" for="aniversario">Atualizar Data
+                    de Nascimento</label> <input class="form-control py-4" id="aniversario"
+                    type="date" name="aniversario" required />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="small mb-1" for="inputEmailAddress">Alterar
+                Email</label> <input class="form-control py-4" id="inputEmailAddress"
+                type="email" aria-describedby="emailHelp"
+                placeholder="Digite o seu email" required />
+        </div>
+        <div class="form-row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label class="small mb-1" for="inputPassword">New Password</label>
+                    <input class="form-control py-4" id="inputPassword"
+                        type="password" placeholder="Digite sua senha" required />
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label class="small mb-1" for="inputConfirmPassword">Confirm
+                        Password</label> <input class="form-control py-4"
+                        id="inputConfirmPassword" type="password"
+                        placeholder="Confirme sua senha" required />
+                </div>
+            </div>
+        </div>
+
+        <h1>Permissões</h1>
+        <form action="/action_page.php">
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> PERMITIR QUE AS EMPRESAS CONSULTEM
+                SOMENTE MEU SCORE <i class="fas fa-medal"></i></label><br> <input type="checkbox" id="vehicle2"
+                name="vehicle2" value="Car"> <label for="vehicle2">
+                PERMITIR QUE AS EMPRESAS CONSULTEM MEU SCORE E MEU HISTÓRICO DE
+                PAGAMENTOS <i class="fas fa-medal"></i></label><br> <input type="checkbox" id="vehicle3"
+                name="vehicle3" value="Boat"> <label for="vehicle3">
+                BLOQUEAR CONSULTA POR DETERMINADA EMPRESA</label><br>
+            <script
+                src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <select id="myFilter" class="multiple_select" multiple>
+                <option>Lojas Americanas</option>
+                <option>Lojas CEM</option>
+                <option>Casas Bahia</option>
+                <option>Magazine Luiza</option>
+                </select> <br>
+            <br> <input type="checkbox" id="vehicle1" name="vehicle1"
+                value="Bike"> <label for="vehicle1"> BLOQUEAR
+                CONSULTA (PARA TODAS AS EMPRESAS)</label> <br>
+            <div class="form-group mt-4 mb-0">
+                <a class="btn btn-primary btn-block" href="Index.html">Atualizar
+                    cadastro</a>
+            </div>
+            <div class="form-group mt-4 mb-0">
+                <a class="btn btn-primary btn-block" href="Index.html">Deletar
+                    Conta</a>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </form>
+    </div>
+</div>
+
